@@ -1,0 +1,30 @@
+{
+  "bootstrapped": true,
+  "installed_packages":
+  [
+    "Alignment",
+    "Better CoffeeScript",
+    "BlameHighlighter",
+    "CodeFormatter",
+    "CoffeeCompile",
+    "Cucumber",
+    "File Navigator",
+    "Git",
+    "Haml",
+    "HTML Minifier",
+    "JSHint",
+    "LESS",
+    "Markdown Preview",
+    "Minifier",
+    "Oracle PL SQL",
+    "Package Control",
+    "PlainTasks",
+		"RSpec",
+    "RuboCop",
+    "Ruby Hash Converter",
+		"SublimeLinter",
+    "SublimeLinter-rubocop",
+    "Syntax Highlighting for Sass",
+    "TrailingSpaces"
+  ]
+}

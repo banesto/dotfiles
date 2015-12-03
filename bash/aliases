@@ -12,9 +12,6 @@ alias k9='kill -9'
 function ka { kill $(ps xc | grep -wi "$*" | awk '{print $1}'); }
 function ka9 { kill -9 $(ps xc | grep -wi "$*" | awk '{print $1}'); }
 
-# textmate
-function m { mate ${*:-.}; }
-
 # ls
 alias l='ls -1'
 alias ll='ls -lh'
@@ -22,9 +19,24 @@ alias la='ls -lah'
 alias lh='ls -la | grep ":[0-9]* \."' # show only hidden files
 
 # git
-alias g='git'
-alias gpll='git pull'
-alias gpsh='git push'
+alias ci="git commit -m"
+alias cia="git commit --amend -m"
+alias fix="git commit -m \"bugfix\""
+alias di="git diff"
+alias push="git push -u origin"
+alias pull="git pull --rebase origin"
+alias diffLast="git diff HEAD^ HEAD"
+alias co="git checkout"
+alias br="git branch"
+alias st="git status"
+alias add="git add ."
+alias hist="git log --pretty=oneline --all"
 
 # guard
 alias guard='bundle exec guard'
+
+# grep
+alias grep="grep --color"
+
+# vpn
+alias vpn="sudo openconnect --config=$HOME/.openconnect.conf $OPENCONNECT_SERVER"

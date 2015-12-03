@@ -1,0 +1,6 @@
+[
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["alt+super+up"], "command": "swap_line_up" },
+  { "keys": ["alt+super+down"], "command": "swap_line_down" }
+]
