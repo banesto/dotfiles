@@ -34,3 +34,7 @@ shopt -s histappend
 ### COLORS
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
+
+export BUNDLER_EDITOR=subl
+export VISUAL="nano"
+export EDITOR="nano"
