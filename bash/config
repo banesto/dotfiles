@@ -1,7 +1,5 @@
 #!/usr/bin/bash
 
-OPENCONNECT_SERVER="<AUTH_URL>"
-
 source ~/.bash/aliases
 
 source ~/.bash/completions/git
