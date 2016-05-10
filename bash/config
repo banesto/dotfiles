@@ -16,6 +16,7 @@ complete -C ~/.bash/completions/capistrano -o default cap
 
 # prompt: [ root ~ master +? ] % cmd
 _user_root() { [ $USER == "root" ] && printf 'root '; }
+_rvm_prompt() { local s=$(rvm-prompt v g); printf "${s:+ ${s}}"; }
 _ruby_version() { local v=$(ruby ~/.bash/ruby_version.rb); printf "$v"; }
 
 if [[ 'hostname -s' -eq "<COMPUTER_HOSTNAME>" ]];
