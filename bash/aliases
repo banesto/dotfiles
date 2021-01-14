@@ -32,6 +32,9 @@ alias st="git status"
 alias add="git add ."
 alias hist="git log --pretty=oneline --all"
 
+# git related
+alias gup=git-up
+
 # sourcetree
 alias stree="/Applications/SourceTree.app/Contents/Resources/stree"
 
