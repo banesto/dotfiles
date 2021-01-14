@@ -1,6 +1,6 @@
 [user]
-  name = <NAME LASTNAME>
-  email = <NAME.LASTNAME>@ask.fm
+	name = Ernests Kečko
+	email = ernests.kecko@gmail.com
 [color]
   diff = auto
   status = auto
@@ -10,7 +10,7 @@
 [format]
   pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
 [core]
-  excludesfile = /Users/<USERNAME>/.gitignore_global
+  excludesfile = /Users/ernestskecko/.gitignore_global
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
   path =
