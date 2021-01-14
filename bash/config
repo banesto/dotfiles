@@ -35,6 +35,6 @@ shopt -s histappend
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-export BUNDLER_EDITOR=subl
+export BUNDLER_EDITOR=atom
 export VISUAL="nano"
 export EDITOR="nano"
